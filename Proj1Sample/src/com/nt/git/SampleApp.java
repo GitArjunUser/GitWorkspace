@@ -6,6 +6,7 @@ public class SampleApp {
          System.out.println("Hi devloper");
          ShowCountries sh=new ShowCountries();
          sh.showCountry();
+        System.out.println("Msg::"+new WishGenerator().generateWishMsg("raja"));
 	}
 
 }
